@@ -61,7 +61,7 @@ if __name__ == "__main__":
     root = Tk() 
     root.geometry('880x480')
     root.title('Untitled - Notepad')
-    root.wm_iconbitmap('covod.ico')
+    root.wm_iconbitmap('notepad.ico')
     root.configure(background="grey")
 
     Textarea = Text(root, font="lucida 13")
